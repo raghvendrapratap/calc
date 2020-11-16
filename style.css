@@ -1,0 +1,44 @@
+body {
+    padding: 5% 10%;
+}
+
+header {
+    font-size: 30px;
+}
+
+#display {
+    width: 25%;
+    border: 2px solid red;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#buttons {
+    float: left;
+    width: auto;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#operator {
+    float: left;
+    width: auto;
+}
+
+.btn {
+    margin: 5px;
+    border: 1px solid red;
+    background-color: rgb(85, 56, 56);
+    color: white;
+    font-weight: 900;
+}
+
+#equal,
+#clear {
+    width: 80%;
+}
+
+#zero {
+    text-align: center;
+}

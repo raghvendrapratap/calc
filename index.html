@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="task.js"></script>
+</head>
+
+<body>
+    <header>
+        <p>Calculator</p>
+    </header>
+    <section id="display">
+        <span id="result"></span>
+    </section>
+    <section id="buttons">
+        <button class="btn" onclick="val(1)">1</button>
+        <button class="btn" onclick="val(2)">2</button>
+        <button class="btn" onclick="val(3)">3</button></br>
+        <button class="btn" onclick="val(4)">4</button>
+        <button class="btn" onclick="val(5)">5</button>
+        <button class="btn" onclick="val(6)">6</button></br>
+        <button class="btn" onclick="val(7)">7</button>
+        <button class="btn" onclick="val(8)">8</button>
+        <button class="btn" onclick="val(9)">9</button></br>
+        <button id="zero" class="btn" onclick="val(0)">0</button></br>
+    </section>
+    <section id="operator">
+        <button id="clear" class="btn" onclick="clr()">C</button></br>
+        <button class="btn" onclick="operator('add')">+</button>
+        <button class="btn" onclick="operator('sub')">-</button></br>
+        <button class="btn" onclick="operator('mul')">*</button>
+        <button class="btn" onclick="operator('div')">/</button></br>
+        <button id="equal" class="btn" onclick="operator('equal')">=</button>
+    </section>
+</body>
+
+</html>
